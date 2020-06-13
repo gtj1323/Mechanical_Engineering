@@ -1,3 +1,5 @@
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 [TOC]
 
 # 1. 열역학 기본
@@ -264,4 +266,3 @@ $\eta = \frac{유효열량}{공급열량} = \frac{Q_1-Q_2}{Q_1} = \frac{W}{Q_1} 
 
 
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
