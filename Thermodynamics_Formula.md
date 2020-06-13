@@ -261,3 +261,7 @@ $\eta = \frac{유효열량}{공급열량} = \frac{Q_1-Q_2}{Q_1} = \frac{W}{Q_1} 
   > $\left ( p+\frac{a}{v^2} \right )(v-b)=RT$
   > $\frac{a}{v^2}$ : 분자자신의 인력이 압력에 미치는 영향을 수정한 항.
   > $v-b$ : 분자자신의 크기를 배제한 부피
+
+
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
