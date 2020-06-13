@@ -28,7 +28,7 @@
 
 점성(viscosty) : 유체가 서로 인접하고 있는 층 사잉에 상대운동이 발생할 때 이 상대운동을 방해하는 유체마찰.
 
-![점성법칙](https://lh3.googleusercontent.com/proxy/UOyfa0wune1PJbEoVL6TrGxfqaUafT7fPcmxkVAhmBz7wOjrHjfP6s-ucCmkLliprO7H8Qu8DCo7nLA7KlpEo79RSRgPGR2c5DyPHtCYvTPZHjDkwpqZ0D2Rd237SfACR1Ad-QZojE8gglJlt_zkn1Yf8uScMFL_BEvI3nLe-aBeIA-GkV7eLg1mWwrZatMwYWNTjrFbWFAE63PVFObQUMhaZ3YF_ap4kn78iKFZq3mDZKjTpiOQw9IEJZoERdcvIXLuDEwcMm3eISjaDFz-Mt_NQo3rTWjeHjCILII-eCNpnWm-z3Q)
+![unnamed](https://user-images.githubusercontent.com/43361320/84560674-2583c300-ad81-11ea-9df9-85c75c7f9008.png)
 
 1. 점성계수
    유체의 점성을 유체의 값. 온도, 농도 등의 영향을 받음.
@@ -118,11 +118,11 @@ $F = \sqrt{F_H^2 + F_V^2}$
 
 정지유체 속에서 잠겨있거나 떠있는 무체가 유체로부터 받는 수직상방향 힘. 아르키메데스에 의해 적립됨.
 $F_B = \gamma_{liq} V$          $\gamma_{liq} : 액체의 비중량$     $V : 물체의 잠겨있는 부분의 체적$
-![](data:image/jpeg;base64,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)
+![부력](https://user-images.githubusercontent.com/43361320/84561659-494b0700-ad89-11ea-90d3-809b7b89dc92.jpg)
 
-|                                    |                             |                             |
+| 안정                               | 불안정                      | 중립                        |
 | ---------------------------------- | --------------------------- | --------------------------- |
-| $\overline{MC}>0$: 안정            | $\overline{MC}<0$: 안정     | $\overline{MC}=0$: 안정     |
+| $\overline{MC}>0$: 안정            | $\overline{MC}<0$           | $\overline{MC}=0$           |
 | 물체가 기울면 원래의 위치로 돌아옴 | 물체가 기울면 계속해서 기움 | 물체가 새로운 위치에서 정지 |
 | M이 C보다 위에 있음                | M이 C보다 아래 있는 경우    | M과 C가 같은 지점           |
 
@@ -141,22 +141,297 @@ $\overline{MC}$ : 경심고(경심 높이)
    $H$ : 운동을 할 때 수평면의 최대 높이
    $\theta$ : 액면경사각
    $tan \theta = \frac{a_x}{g}$
-
 2. 연직 등가속도($a_y$) 운동을 받는 유체
    $p_1$ : 유체 내 임의의 위치의 압력
    $p_2$ : $p_1$보다 h만큼 아래에 위치한 유체 내의 압력
    $p_2 - p_1 = \gamma h \left ( 1+\frac{a_y}{y} \right )$
-
 3. 등속회전 운동을 받는 유체 (각속도 $\omega$)
-   ![등속회전 유체](![등속회전 유체](https://user-images.githubusercontent.com/43361320/84125797-0da5f980-aa78-11ea-9906-d48685900d90.png)
+   ![등속회전 유체](https://user-images.githubusercontent.com/43361320/84125797-0da5f980-aa78-11ea-9906-d48685900d90.png)
    중심에서 r만큼 떨어진 위치에서 유체가 받는 수평방향 가속도 : $r\omega ^2$
-   $h$=수면 최고높이나 최저높이의 차이
-   $h_r$=임의의 한 점에서 수면의 높이
+   $h$ : 수면 최고높이나 최저높이의 차이
+   $h_r$ : 중심에서 r만큼 떨어진 지점의 수면의 높이
    $h_r =\frac{r^2\omega^2}{2g}$
    $h=\frac{R^2\omega^2}{2g}$
-
    $\omega = \frac{\sqrt {2gh}}{r}$
-
    $p = p_0 + \gamma h_r$     $p_0$ : 같은 액면 상의 중심 압력
+   정지상태/ 수면, 최저 수면($h_0$)과 최고수면($h$) 사이의 관계도 봐 둘 것.
 
-   정지상태 수면과 최고수면 사이의 관계도 봐 둘 것.
+# 3. 유체의 운동학
+
+## 1. 유동의 상태 종류
+   $b( = p,V,\rho,T)$ : 유체의 흐름 특성     $s$ : 임의 방향의 좌표     $t$ : 시간
+
+   - 정상류(steady flow)
+     유동장 내의 임의의 한점에서 흐름의 특성이 시간에 관계없이 항상 일정한 유동.
+     $\frac{\delta b}{\delta t}=0$
+   - 비정상류(unsteday flow)
+     유동장내의 임의의 한점에서 흐름의 특성이 시간에 따라 변화하는 유동.
+     $\frac{\delta b}{\delta t} \ne 0$
+   - 등류(=균속도유동=등속류 : uniform flow)
+     유동상태에서 거리의 변화에 관계없이 항상 속도가 일정한 흐름.
+     $\frac{\delta V}{\delta s}=0$
+   - 비등류(=비균속도유동=비등속류 : Nonuniform flow)
+     유동상태에서 거리의 변화에 따라 속도의 변화가 있는 흐름.
+     $\frac{\delta V}{\delta s} \ne 0$
+
+## 2. 유선, 유관, 유적선, 유맥선
+
+   - 유선(stream line) 
+     유동장 내에서 유체 입자의 이동 곡선의 접선과 유체입자의 속도벡터를 일치하도록 그린 선. 
+
+     > 유선은 서로 교차하지 않음.
+     > 유선은 유관 밖으로 나갈 수 없음.
+     > 정상류일 경우, 유선은 변하지 않음.
+
+   - 유관(=유선관 : stram tube)
+     어떤 폐곡선을 통과하는 여러개의 <span style="color:red">유선</span>으로 둘러싸여 이루어지는 가상적인 공간. 유선 다발.
+
+   - 유적선(path line)
+     주어진 시간 동안에 유체입자가 지나가는 자취. (유체입자는 유선의 접선방향으로 운동함.->유선과 같음.)
+
+   - 유맥선(streak line)
+     공간내의 한점을 지나는 모든 유체입자들의 순간궤적.
+
+## 3. 유선의 방정식
+   $\overrightarrow{V}$ : 속도 벡터
+   $u, v ,w$ : 각각 $x, y, z$ 방향의 속도 성분
+   $\overrightarrow{i}, \overrightarrow{j}, \overrightarrow{k}$ : 각각 $x, y, z$ 방향의 단위 벡터 (이제부터는 그냥 $i, j, k$로 쓴다.)
+   $dS(=dxi + dyj + dzk)$ : 유선방향의 미소벡터
+   여기서 유성방향의 미소 이동거리= $\overrightarrow{V} \times dS$ 로 외적을 해줘야한다. (유선의 조건 적용.)
+   $\overrightarrow{V} \times d = \begin{vmatrix} i & j & k \\ x & y & z  \\ dx & dy & dz \end{vmatrix} = i(vdz-wdy)-j(udz-wdx)+k(udy-vdx)=0$
+따라서 유선의 경우 아래의 식을 만족한다.
+$\begin{cases}
+vdz-wdy=0 \\
+udz-wdx=0 \\
+udy-vdx=0
+\end{cases} = 
+\begin{cases}
+\frac{dx}{u}=\frac{dy}{v}=\frac{dz}{w}
+\end{cases}$  (2차원 유동인 경우 $z, w$ 를 삭제)
+
+## 4. 연속방정식
+   흐르는 유체에 질량보존의 법칙을 적용하여 얻는 것을 연속방정식이라 한다.
+   ![K33-00-42-13-베르누이 법칙](https://user-images.githubusercontent.com/43361320/84561631-0f7a0080-ad89-11ea-9d79-1a7972a484ac.png)
+   $\overset{\sdot}{m} \left ( = \frac{dm}{dt} =Q\times \rho \right )$ : 질량유량 [$kg/s$]
+   $Q\left ( = \frac{dV}{dt}\right )$ : 체적유량[$m^3/s$]
+   $\frac{\delta u}{\delta x}+\frac{\delta v}{\delta y}+\frac{\delta w}{\delta z}=0$ (3차원 정상류, 비압축성유동의 연속방정식) (2차원은 $w, z$ 삭제)
+
+## 5. 오일러의 운동방정식(euler equation of motion)
+   유체 입자가 유선을 따라 움직일 때 뉴턴의 운동 제2법칙을 적용하여 얻은 미분방정식
+   (단위질량의 유체 입자에 작용하는 힘은 가속도와 같다.)
+$$
+   \frac{dp}{\rho}+VdV+gdZ=0
+$$
+   오일러 운동방정식의 가정
+   ① 유체입자는 유선을 따라 움직인다.
+   ② 유체는 마찰이 없다.
+   ③정상류이다.
+
+## 6. 베르누이 방정식(bernoulli's equation)
+   <span style="color:red">오일러 운동방정식을 유선전체에 대해 적분한 값</span>. (오일러 운동방정식 가정을 그대로 가져감.)
+$$
+   \frac{p}{\gamma}+\frac{V^2}{2g}+Z=H=Constant
+$$
+   $\frac{p}{\gamma}$ : 압력수두     $\frac{V^2}{2g}$ : 속도수두     $Z$ :  위치수두     $H$ : 전수두
+   수두(haed) : 단위중량의 유체가 갖는 에너지를 길이(혹은 높이, 깊이)로 나타낸 것.
+
+   __※ 베르누이방정식의 조건 정리__
+
+   > - 오일러의 운동방정식 조건
+   >   ① 유체입자는 유선을 따라 움직인다.
+   >   ② 유체는 마찰이 없다.
+   >   ③ 정상류이다.
+   > - 베르누이 방정식에 필요한 조건
+   >   ④ 비압축성이다.   ($\gamma=Const$를 만족하기 위해)
+
+   1) 베르누이 방정식 응용 1 - 토리첼리의 정리(torricelli's theorem)
+     ![150px-TorricellisLaw svg](https://user-images.githubusercontent.com/43361320/84562370-fe33f280-ad8e-11ea-865a-c88e931dde17.png)
+     노즐의 출구 속도 $v = \sqrt{2gh}$ 
+
+   2) 피토관(pitot tube) - 전압 = 정압 + 동압
+     양끝이 개방되어 있는 한개의 관을 직각으로 굽힌 것.
+     ![asdfadf](https://user-images.githubusercontent.com/43361320/84562547-2839e480-ad90-11ea-9e40-57a9c9865a2f.png)
+     전압($p_s$) : 정체점 압력, ($=p_s + \frac{\gamma V^2}{2g}$)
+     정압($p$) : 유체의 해당 유동상태에서 가지는 압력.
+     동압($\frac{\gamma V^2}{2g}$) : 유체의 유동이 압력으로 전환되었을 때의 압력.
+     (전압, 동압, 유체의 비중량이 주워지면 속도를 구할 수 있음.)
+
+## 7. 동력 (손실수두)
+$$
+   \frac{p_1}{\gamma}+\frac{V_1^2}{2g}+Z_1 + H_P=\frac{p_2}{\gamma}+\frac{V_2^2}{2g}+Z_2+H_l
+$$
+   $H_P$ : 펌프의 양정(펌프가 줄 수 있는 수두)
+   $H_l$ : 손실 수두(마찰 등으로 인해 손실된 수두)
+   동력 $P = \gamma Q H \left ( 혹은 \frac{\gamma Q H}{\mu_P} \right )$
+
+# 4. 운동량 방정식
+
+$F_x = \overset{\sdot}{m}\Delta V_x = \rho Q \Delta  V_x = \rho AV \Delta  V_x$
+$F_y = \overset{\sdot}{m} \Delta  V_y = \rho Q \Delta  V_y = \rho AV \Delta  V_y$
+$F=\sqrt{F_x^2 + F_y^2}$     $V=\sqrt{V_x^2 + V_y^2}$
+
+# 5. 실제 유체의 유동과 상사법칙
+
+## 1. 층류와 난류
+   층류(Laminar flow) : 유체입자들이 질서정연하게 층과 층이 미끄러지면서 흐르는 유동상태.
+   난류(Turbulent flow) : 유체입자들이 불규칙하게 층사이를 오가면 흐르는 유동상태.
+
+## 2. Navier-Stokes' Equation (유체의 운동 방정식)
+   실제 유체는 압축성, 마찰(점성) 등을 가지므로 베르누이 방정석으로 해석하기에는 한계가 있다. 이를 고려한 Navier-Stokes' Equation은 해당 식은 뉴튼유체($\mu = Const$)에 성립하는 방정이다.
+
+- 기본형 (기본형은 짧만 직교좌표계, 원통좌표계, 구면좌표계 각각 3개씩 총 9개의 식이 나온다.)
+   $$
+   \frac{\delta u}{\delta t}+(u \sdot \nabla)u - \nu \nabla^2u = \nabla w+g
+   $$
+   
+## 3. 유체역학의 상사법칙
+   상사법칙은 실형과 모형간의 일정한 비를 유지하여 모형을 통해 비슷한 실험결과를 얻기 위해 고려해야 한다.
+
+   - 기하학적 상사
+     경계를 이루고 있는 물체를 포함하여 실형과 모형 사이에 대응하는 모든 치수의 비가 일정.
+     ex) 길이, 면적, 부피 등의 비가 일정
+   - 운동학적 상사
+     유선이 기하학적 상사를 이루는 실형과 모형 사이에 각각 대응하는 점에서 일정한 비를 이룸.
+     ex) 속도, 가속도, 유량 등의 비가 일정
+   - 역학적 상사
+     유체의 유동에서 실형과 모형 사이에 대응하는 역학적 관계가 일정한 비를 이룸.
+     ex) 관성력, 점성력, 압축력, 표면장력 등의 관계가 일정한 비를 이룸.
+
+## 4. 유체역학의 상사법칙 - 유체 상수
+
+   - __레이놀즈 수($Re$) __
+     
+     > 점성력에 대한 관성력의 비
+     >  $Re = \frac{관성력}{ 점성력} = \frac{(\rho L^3) \left ( \frac{V}{t} \right )}{\mu \left ( \frac{V}{L} \right ) L^2 } = \frac{\rho Vd}{\mu} = \frac{Vd}{\nu}$
+     > 층류, 천이, 난류를 구분하는 기준이 된다.
+     >
+     > | 층류      | 천이             | 난류      |
+     > | --------- | ---------------- | --------- |
+     > | Re < 2100 | 2100 < Re < 4000 | 4000 < Re |
+     > 거의 모든 유체 유동에서 중요함.
+     
+   - 프루드 수($Fr$)
+     
+     > 중력에 대한 관성력의 비
+     >   $Fr = \frac{관성력}{중력}= \frac{V}{\sqrt{gL}}$
+     > 자유표면운동에 있어 중요. (조파저항,개수로, 조선, 댐, 수력도약 등의 설계에 중요.)
+
+   - 오일러 수($Eu$)
+     
+     > 관성력에 대한 압축력의 비
+     >   $Eu = \frac{압축력}{관성력} = \frac{P}{\rho V^2}$
+     > 두 점 사이의 압력차가 큰 유동에서 중요.
+
+   - 압력계수($C_p$)
+     
+     > 동압에 대한 정압의 비
+     >   $C_p = \frac{압력}{동압} = \frac{P}{\rho V^2 /2}$
+
+   - 마하수($M$)
+     
+     > 음파속도에 대한 속도의 비
+     >   $M = \frac{속도}{음파속도} = \frac{v}{a}$
+
+   - 코시수($Ca$)
+     
+     > 탄성력에 대한 관성력의 비
+     >   $Ca = \frac{관성력}{탄성력} = \frac{\rho V^2}{K}$
+     > 압축성유체의 유동에서 중요.
+
+   - 웨버수($Wb$)
+     
+     > 표면장력에 대한 관성력의 비
+     >   $Wb = \frac{관성력}{표면장력} = \frac{\rho V^2L}{\sigma}$
+     > 두 유체의 접촉면을 갖는 유동에서 중요. (물방울, 기포생성, 박막유동 등)
+
+   - 양력계수와 항력계수
+     
+     > 유체 속에 잠겨있는 물체에 작용하는 힘과 관성력의 비
+     > 양력계수 $C_L = frac{F_L}{\frac{1}{2}\rho A V^2}$
+     > 항력계수 $C_D = frac{F_D}{\frac{1}{2}\rho A V^2}$
+     
+   - 프란틀수($P_r$)
+
+     > 전도에 대한 소산의 비
+     > $P_r = \frac{\mu C_p}{k}$
+
+   - 스트라홀수($S_t$)
+
+     > 평균속도에 대한 진동의 비
+     > $S_t = \frac{l \omega}{V} = \frac{d\omega}{V}$
+
+## 5. 층류 유동
+
+   - 원형관 유동 (중심을 0, 관의 반지름 $r_0=\frac{d}{2}$, 관의 길이 $l$ )
+     ![Development_of_fluid_flow_in_the_entrance_region_of_a_pipe](https://user-images.githubusercontent.com/43361320/84564673-532b3500-ad9e-11ea-87d3-dbfd89d05ef7.jpg)
+     $Q = Av_m =-A\frac{\Delta pr_0^2}{8 \mu l} =-\frac{\Delta pr_0^4 \pi}{32 \mu l}$
+     $v_{max} =-\frac{\Delta p r_0}{4\mu l} = 2v_m$
+     $v=v_{max} \left [ 1- \left ( \frac{r}{r_0} \right )^2 \right ]$ ※ 정상유동에서 관벽에서는 0, 중심에서는 최대 속도가 된다.
+     $\tau_{max} = \frac{\Delta pr_0}{2l}$ ※ 정상유동에서 벽면의 마찰력은 최대, 중심에서는 0(최소)가 된다.
+     $\Delta p = f\frac{l}{d} \times \frac{\gamma v_m^2}{2g}$  ※ 관마찰계수 $f=\frac{64}{Re}$ (층류에서만)
+     - 수력학적 입구
+        유체가 입구에서 균일한 속도로 들어오면, 유동하면서 속력구배가 변하게 된다. 입구에서부터 완전발달영역까지의 영역을 수력학적 입구라 한다.
+        이 수력학적 입구영역에서는 완전발달 영역에서 보다 압력강하가 크다.
+   - 채널 유동(2개의 평행평판 사이 유동, 두 평판 사이의 거리=$h$, 채널의 너비는 1, 채널의 길이는 $l$)
+     $Q = Av_m = h \times 1 \times v_m =-\frac{\Delta p h^3}{12\mu l}$
+     $v_{max} =-\frac{\Delta p h^2}{8\mu l} = 1.5v_m$
+       ※ 정상유동에서 관벽에서는 0, 중심에서는 최대 속도가 된다.
+
+
+
+# ※ 개념정리
+
+- 수두(head)
+
+  > 단위질량의 유체가 갖는 에너지를 길이(혹은 높이, 깊이)로 나타낸 것.
+  
+- 프란틀의 혼합거리
+
+  > 난동하는 유체입자가 운동량 변화없이 진행방향과 수직하게 이동한 거리.
+  > 관벽에서 0이 됨. 관벽에서 떨어진 거리에 비례함.
+
+- 유체경계층
+
+  > 유체가 유동할 때 점성의 영향으로 생긴 얇은 층.
+
+- 경계층 두께
+
+  > 경계층 내의 속도가 자유흐름 속도의 99%가 되는 지점을 기준으로 수직방향 두께.
+
+- 박리(Seperation), 박리점
+
+  > 박리 : 유선상을 운동하는 유체가 압력이 증가하고, 속도가 감소하면서 유선을 이탈하는 현상.
+  > 박리점 : 유체표면에서 수직방향 속도변화율이 0이 되는 지점. 박리가 시작되는 지점.
+  >               전단응력이 0이되고, 표면에 유체의 역방향 속도구배가 생성되는 지점이다.
+  > 박리가 일어나면 유체의 후류(Wake)형성에 에너지를 소비한다.
+
+- 후류(Wake)
+
+  > 박리점 이후 소용돌이치는 흐름. 압력항력이 생기는 주요원인.
+
+- 무디선도(moody diagram)
+
+  > 관마찰계수를 손쉽게 구할 수 있게끔 작성한 그래프.
+
+- 버킹함의 $\Pi$정리
+
+  > 독립무차원수 $\Pi = n-m$ 를 따른다 정리.
+  > n : 물리량의 수
+  > m : 기본차원의 수 (M,L,T)
+
+- 노즐, 디퓨저
+
+  > 노즐 : 단면적의 변화로 운동에너지를 증가시키는 것이 목적.
+  > 디퓨저 : 속도를 감소시켜 유체의 정압력을 증가시키는 것이 목적.
+
+- 충격파(shock wave)
+
+  > 초음속 => 아음속 갑자기 변하게 되는 경우 발생하는 불연속면
+  > 압력, 온도, 밀도, 비중량 증가, 엔트로피 증가
+  > 마찰열발생
+  > 속도 감소
+
+
+
+
+

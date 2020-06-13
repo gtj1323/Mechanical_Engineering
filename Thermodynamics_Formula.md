@@ -1,5 +1,3 @@
-html header: <script type="text/javascript" async src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
 [TOC]
 
 # 1. 열역학 기본
@@ -161,12 +159,23 @@ html header: <script type="text/javascript" async src="http://cdn.mathjax.org/ma
 | $_1q_2$    | $\Delta u$                                | $\Delta h$                                | ${}_1w_2$                                | 0                                                            | $C_n(T_2-T_1)$                                               |
 | $\Delta s$ | $C_v ln \left ( \frac{T_2}{T_1} \right )$ | $C_p ln \left ( \frac{T_2}{T_1} \right )$ | $R ln \left ( \frac{v_2}{v_1} \right )$  | 0                                                            | $C_nln \frac{T_2}{T_1}$                                      |
 
-폴리트로픽 변화의 해석
+폴리트로픽 변화의 n값의 변화에 따른 해석
 
 |       | 정압  | 등온     | 단열 | 정적     |
 | ----- | ----- | -------- | ---- | -------- |
 | n     | 0     | 1        | k    | $\infin$ |
 | $C_n$ | $C_p$ | $\infin$ | 0    | $C_v$    |
+
+![graph](https://user-images.githubusercontent.com/43361320/84560356-16e7dc80-ad7e-11ea-83fc-b49cccaa413b.gif)
+
+![이상기체_TS1](https://user-images.githubusercontent.com/43361320/84560434-0ab04f00-ad7f-11ea-966a-671323904efd.png)
+
+| 선                                     | 반응 종류                                 |
+| -------------------------------------- | ----------------------------------------- |
+| <span style="color:red">__a__</span>   | <span style="color:red">정적</span>변화   |
+| <span style="color:black">__b__</span> | <span style="color:black">정압</span>변화 |
+| <span style="color:blue">__c__</span>  | <span style="color:blue">등온</span>변화  |
+| <span style="color:green">__d__</span> | <span style="color:green">단열</span>변화 |
 
 ## 4. 열역학 선도
 
@@ -236,12 +245,6 @@ $\eta = \frac{유효열량}{공급열량} = \frac{Q_1-Q_2}{Q_1} = \frac{W}{Q_1} 
 2. 디젤사이클
 3. 사바테사이클
 
-
-
-
-
-
-
 --------------------------------------------------
 
 # ※개념 정리
@@ -263,6 +266,3 @@ $\eta = \frac{유효열량}{공급열량} = \frac{Q_1-Q_2}{Q_1} = \frac{W}{Q_1} 
   > $\left ( p+\frac{a}{v^2} \right )(v-b)=RT$
   > $\frac{a}{v^2}$ : 분자자신의 인력이 압력에 미치는 영향을 수정한 항.
   > $v-b$ : 분자자신의 크기를 배제한 부피
-
-
-
