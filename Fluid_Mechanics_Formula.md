@@ -65,7 +65,7 @@ $a=\sqrt {\frac{dp}{d \rho}}=\sqrt {\frac{g dp}{d \gamma}}$
 1. 표면장력($\sigma$ : surface tension) [$N/m^2$]
    유체는 분자간의 인력으로 평형상태를 유지한다. 그리고 유체의 자유표면은 외부로부터 힘을 받지 않기 때문에 둥근 형태를 유지하려고 하는데 이 힘을 표면장력이라한다.
 
-   구형 물방울의 표면 장력 $\sigma = \frac{\Delta pd}{4}$     $\Delta p $ : 물방울 내부와 외부의 압력차
+   구형 물방울의 표면 장력 $\sigma = \frac{\Delta pd}{4}$     $\Delta p $ : 물방울 내부와 외부의 압력차 
 
 2. 모세관 현상
    액체에 가는 관을 세우면 액체가 관을 따라 상승 혹은 하강한다. 이 현상을 모세관 현상이라 한다. 이때 관의 기울기와 상관없이 상승하거나 하강한 액면의 높이는 일정하다.
@@ -163,16 +163,16 @@ $\overline{MC}$ : 경심고(경심 높이)
 
    - 정상류(steady flow)
      유동장 내의 임의의 한점에서 흐름의 특성이 시간에 관계없이 항상 일정한 유동.
-     $\frac{\delta b}{\delta t}=0$
+     $\frac{\partial b}{\partial t}=0$
    - 비정상류(unsteday flow)
      유동장내의 임의의 한점에서 흐름의 특성이 시간에 따라 변화하는 유동.
-     $\frac{\delta b}{\delta t} \ne 0$
+     $\frac{\partial b}{\partial t} \ne 0$
    - 등류(=균속도유동=등속류 : uniform flow)
      유동상태에서 거리의 변화에 관계없이 항상 속도가 일정한 흐름.
-     $\frac{\delta V}{\delta s}=0$
+     $\frac{\partial V}{\partial s}=0$
    - 비등류(=비균속도유동=비등속류 : Nonuniform flow)
      유동상태에서 거리의 변화에 따라 속도의 변화가 있는 흐름.
-     $\frac{\delta V}{\delta s} \ne 0$
+     $\frac{\partial V}{\partial s} \ne 0$
 
 ## 2. 유선, 유관, 유적선, 유맥선
 
@@ -214,7 +214,7 @@ udy-vdx=0
    ![K33-00-42-13-베르누이 법칙](https://user-images.githubusercontent.com/43361320/84561631-0f7a0080-ad89-11ea-9d79-1a7972a484ac.png)
    $\overset{\sdot}{m} \left ( = \frac{dm}{dt} =Q\times \rho \right )$ : 질량유량 [$kg/s$]
    $Q\left ( = \frac{dV}{dt}\right )$ : 체적유량[$m^3/s$]
-   $\frac{\delta u}{\delta x}+\frac{\delta v}{\delta y}+\frac{\delta w}{\delta z}=0$ (3차원 정상류, 비압축성유동의 연속방정식) (2차원은 $w, z$ 삭제)
+   $\frac{\partial u}{\partial x}+\frac{\partial v}{\partial y}+\frac{\partial w}{\partial z}=0$ (3차원 정상류, 비압축성유동의 연속방정식) (2차원은 $w, z$ 삭제)
 
 ## 5. 오일러의 운동방정식(euler equation of motion)
    유체 입자가 유선을 따라 움직일 때 뉴턴의 운동 제2법칙을 적용하여 얻은 미분방정식
@@ -281,7 +281,7 @@ $F=\sqrt{F_x^2 + F_y^2}$     $V=\sqrt{V_x^2 + V_y^2}$
 
 - 기본형 (기본형은 짧만 직교좌표계, 원통좌표계, 구면좌표계 각각 3개씩 총 9개의 식이 나온다.)
    $$
-   \frac{\delta u}{\delta t}+(u \sdot \nabla)u - \nu \nabla^2u = \nabla w+g
+   \frac{\partial u}{\partial t}+(u \sdot \nabla)u - \nu \nabla^2u = \nabla w+g
    $$
    
 ## 3. 유체역학의 상사법칙
@@ -365,7 +365,7 @@ $F=\sqrt{F_x^2 + F_y^2}$     $V=\sqrt{V_x^2 + V_y^2}$
    - 원형관 유동 (중심을 0, 관의 반지름 $r_0=\frac{d}{2}$, 관의 길이 $l$ )
      ![Development_of_fluid_flow_in_the_entrance_region_of_a_pipe](https://user-images.githubusercontent.com/43361320/84564673-532b3500-ad9e-11ea-87d3-dbfd89d05ef7.jpg)
      $Q = Av_m =-A\frac{\Delta pr_0^2}{8 \mu l} =-\frac{\Delta pr_0^4 \pi}{32 \mu l}$
-     $v_{max} =-\frac{\Delta p r_0}{4\mu l} = 2v_m$
+     $v_{max} =-\frac{\Delta p r_0^2}{4\mu l} = 2v_m$
      $v=v_{max} \left [ 1- \left ( \frac{r}{r_0} \right )^2 \right ]$ ※ 정상유동에서 관벽에서는 0, 중심에서는 최대 속도가 된다.
      $\tau_{max} = \frac{\Delta pr_0}{2l}$ ※ 정상유동에서 벽면의 마찰력은 최대, 중심에서는 0(최소)가 된다.
      $\Delta p = f\frac{l}{d} \times \frac{\gamma v_m^2}{2g}$  ※ 관마찰계수 $f=\frac{64}{Re}$ (층류에서만)
