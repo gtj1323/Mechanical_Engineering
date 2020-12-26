@@ -35,7 +35,9 @@
 8. 동력 단위
    $1[J/s]=1[W]$]
    $1[PS]=75[kg_{f}\sdot m/s]$
+   $1[kW]=102[kg_{f}\sdot m/s]$d
    $1[N \sdot m \times rad/s] = 1[W] $         (토크 $\times$ 각속도)
+   $1[kg_{f}\sdot m/s]=\frac{1}{75}[PS]=\frac{1}{102}[kW]$
 9. 온도
    $\frac{T_℃-0}{100}=\frac{T_℉-0}{180}$
 
